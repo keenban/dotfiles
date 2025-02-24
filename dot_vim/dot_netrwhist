@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/keenban/.config/kitty'
+let g:netrw_dirhist_4='/home/keenban/.config'
+let g:netrw_dirhist_3='/home/keenban/.config/kitty'
+let g:netrw_dirhist_2='/home/keenban/.config/pulse'
+let g:netrw_dirhist_1='/home/keenban/.config/i3'
