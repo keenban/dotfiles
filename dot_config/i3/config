@@ -12,10 +12,10 @@ set $mod Mod4
 # font
 font pango:JetBrainsMonoNL Nerd Font 16
 # gaps around windows
-gaps inner 10
-gaps outer 5
+# gaps inner 10
+# gaps outer 5
 # no gaps or borders when only 1 window on workspace
-smart_gaps on
+# smart_gaps on
 hide_edge_borders smart
 # focus options
 focus_follows_mouse no
@@ -183,6 +183,8 @@ exec --no-startup-id udiskie -At
 exec_always --no-startup-id feh --bg-fill /home/keenban/Pictures/Wallpapers/pixel/Arrogance-2.png --bg-fill /home/keenban/Pictures/Wallpapers/pixel/Arrogance-1.png
 # password manager
 exec --no-startup-id keepassxc
+# mount network drive
+exec --no-startup-id rclone --daemon --vfs-cache-mode full keenandrive: ~/keenandrive/
 
 #=====[ THEME ]===============#
 
