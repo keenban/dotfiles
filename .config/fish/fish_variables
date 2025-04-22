@@ -43,4 +43,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3d44475a
 SETUVAR fish_pager_color_selected_completion:f8f8f2
 SETUVAR fish_pager_color_selected_description:6272a4
 SETUVAR fish_pager_color_selected_prefix:8be9fd
-SETUVAR fish_user_paths:/home/keenban/scripts\x1e/home/keenban/\x2econfig/emacs/bin\x1e/home/keenban/\x2elocal/bin
+SETUVAR fish_user_paths:/home/keenban/scripts\x1e/home/keenban/\x2elocal/bin
