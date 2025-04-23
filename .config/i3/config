@@ -153,9 +153,9 @@ bindsym $mod+x exec "dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F
 bindsym $mod+Shift+x exec i3lock -t -i /home/keenban/Pictures/Wallpapers/Signedout.png
 
 # Screenshots
-bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/Screenshots/$(date)"
-bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/Screenshots/$(date)"
-bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/Screenshots/$(date)"
+bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/Screenshots/$(date).png"
+bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/Screenshots/$(date).png"
+bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/Screenshots/$(date).png"
 
 ## Clipboard Screenshots
 bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
@@ -176,7 +176,7 @@ exec_always picom -f
 # redshift
 exec_always --no-startup-id systemctl --user start redshift
 # show udiskie tray icon
-exec --no-startup-id udiskie -At
+# exec --no-startup-id udiskie -At
 # display wallpapers
 exec_always --no-startup-id feh --bg-fill /home/keenban/Pictures/Wallpapers/pixel/Arrogance-2.png --bg-fill /home/keenban/Pictures/Wallpapers/pixel/Arrogance-1.png
 # password manager
