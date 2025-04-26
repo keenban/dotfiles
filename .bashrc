@@ -33,3 +33,4 @@ alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts'
 
 alias v='$EDITOR'
 alias p='pacman'
+alias clip='xclip -selection clipboard'
