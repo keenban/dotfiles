@@ -27,6 +27,7 @@ alias diff='diff --color=auto'
 alias cpan='cpan -j $XDG_CONFIG_HOME/cpan/Config.pm'
 alias gpg2='gpg2 --homedir "$XDG_DATA_HOME"/gnupg'
 alias gpg='gpg --homedir "$XDG_DATA_HOME"/gnupg'
+alias yay='yay --gpgflags --homedir "$XDG_DATA_HOME"/gnupg'
 alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts'
 
 #-----| abbreviate |-----#
