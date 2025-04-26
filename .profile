@@ -8,6 +8,7 @@
 #=====| defaults |=====#
 export EDITOR="vim"
 export TERMINAL="st"
+export BROWSER="librewolf"
 export PAGER="less"
 #=====| home cleanup |=====#
 export HISTFILE="$XDG_STATE_HOME"/bash/history
