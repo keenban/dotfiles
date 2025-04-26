@@ -21,7 +21,7 @@ done; unset command
 #=====| alias |=====#
 #-----| default |-----#
 
-alias ls='ls -h --group-directories-first --color=auto'
+alias ls='ls -ph --group-directories-first --color=auto'
 alias grep='grep --color=auto'
 alias diff='diff --color=auto'
 alias cpan='cpan -j $XDG_CONFIG_HOME/cpan/Config.pm'
@@ -31,4 +31,8 @@ alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts'
 
 alias v='$EDITOR'
 alias p='pacman'
+alias g='git'
 alias clip='xclip -selection clipboard'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
