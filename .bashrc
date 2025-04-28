@@ -4,35 +4,31 @@
 #   / /_/ / /_/ (__  ) / / / /  / /__  
 #  /_.___/\__,_/____/_/ /_/_/   \___/  
 #                                      
+# [[ $- != *i* ]] && return # If not running interactively, don"t do anything
 
-[[ $- != *i* ]] && return # If not running interactively, don't do anything
 #=====| customization |=====#
-
 stty -ixon # Disable ctrl-s and ctrl-q
 shopt -s autocd # Allows cd with only dir name
-export PS1='[\u@\H:\w]\$ ' # Custom prompt
+export PS1="[\u@\H:\w]\$ " # Custom prompt
 
 #=====| auto sudo |=====#
-
 for command in mount umount pacman ; do
 	alias $command="sudo $command"
 done; unset command
 
 #=====| alias |=====#
 #-----| default |-----#
-
-alias ls='ls -ph --group-directories-first --color=auto'
-alias grep='grep --color=auto'
-alias diff='diff --color=auto'
-alias cpan='cpan -j $XDG_CONFIG_HOME/cpan/Config.pm'
-alias wget='wget --hsts-file="$XDG_CACHE_HOME/wget-hsts'
+alias ls="ls -ph --group-directories-first --color=auto"
+alias grep="grep --color=auto"
+alias diff="diff --color=auto"
+alias cpan="cpan -j $XDG_CONFIG_HOME/cpan/Config.pm"
+alias wget="wget --hsts-file=$XDG_CACHE_HOME/wget-hsts"
 
 #-----| abbreviate |-----#
-
-alias v='$EDITOR'
-alias p='pacman'
-alias g='git'
-alias clip='xclip -selection clipboard'
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
+alias v="$EDITOR"
+alias p="pacman"
+alias g="git"
+alias clip="xclip -selection clipboard"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
