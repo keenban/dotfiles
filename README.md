@@ -1,5 +1,4 @@
-# keenban's linux dotfiles
----
+# included configurations
 ## shell
 [profile](.profile)
 ### bash
