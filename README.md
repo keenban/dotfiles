@@ -6,5 +6,7 @@
 [bashrc](.bashrc)
 ### fish
 [config.fish](.config/fish/config.fish)
-## term
+## terminal
 [alacritty.toml](.config/alacritty/alacritty.toml)
+## display server
+[xinitrc](.config/x11/xinitrc)
