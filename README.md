@@ -6,3 +6,5 @@
 [bashrc](.bashrc)
 ### fish
 [config.fish](.config/fish/config.fish)
+## term
+[alacritty.toml](.config/alacritty/alacritty.toml)
