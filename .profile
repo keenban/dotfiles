@@ -22,7 +22,7 @@ export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
 #=====| home cleanup |=====#
 export RANDFILE="$XDG_DATA_HOME"/rnd
-export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc                                 
+export XINITRC="$XDG_CONFIG_HOME"/x11/xinitrc                                 
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME"/pass                               
 export HISTFILE="$XDG_STATE_HOME"/bash/history                              
 export DVDCSS_CACHE="$XDG_DATA_HOME"/dvdcss
