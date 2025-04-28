@@ -1,7 +1,7 @@
 # keenban's linux dotfiles
 ---
 ## shell
-[profile]
+[profile](.profile)
 ### bash
 [bashrc](.bashrc)
 ### fish
