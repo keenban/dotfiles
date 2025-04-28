@@ -17,7 +17,6 @@
 ## xdg
 ### user dirs
 [user-dirs.dirs](.config/user-dirs.dirs)
----
 ## misc programs
 ### redshift
 [redshift.conf](.config/redshift/redshift.conf)
