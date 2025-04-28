@@ -10,6 +10,7 @@ if [ -f "$HOME"/.bashrc ]; then
     . "$HOME"/.bashrc
 fi
 #=====| defaults |=====#
+export PATH="$PATH:$(find ~/.local/bin -type d | paste -sd ':' -)"
 export EDITOR="vim"
 export TERMINAL="st"
 export BROWSER="librewolf"
