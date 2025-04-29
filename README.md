@@ -4,13 +4,13 @@
 ### bash
 [bashrc](dot-bashrc)
 ### fish
-[dot-config.fish](dot-config/fishdot-config.fish)
+[config.fish](dot-config/fish/config.fish)
 ## terminal emulator
 [alacritty.toml](dot-config/alacritty/alacritty.toml)
 ## display server
 [xinitrc](dot-config/x11/xinitrc)
 ## window manager
-[i3](dot-config/i3dot-config)
+[i3](dot-config/i3.config)
 ## hotkey daemon
 [sxhkdrc](dot-config/sxhkd/sxhkdrc)
 ## text editor
@@ -24,4 +24,4 @@
 ### yazi
 [yazi.toml](dot-config/yazi/yazi.toml)
 ### fastfetch
-dot-config.jsonc](dot-config/fastfetchdot-config.jsonc)
+[config.jsonc](dot-config/fastfetch/config.jsonc)
