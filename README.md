@@ -1,27 +1,27 @@
-# included configurations
+# includeddot-configurations
 ## shell
-[profile](.profile)
+[profile](dot-profile)
 ### bash
-[bashrc](.bashrc)
+[bashrc](dot-bashrc)
 ### fish
-[config.fish](.config/fish/config.fish)
+dot-config.fish](dot-config/fishdot-config.fish)
 ## terminal emulator
-[alacritty.toml](.config/alacritty/alacritty.toml)
+[alacritty.toml](dot-config/alacritty/alacritty.toml)
 ## display server
-[xinitrc](.config/x11/xinitrc)
+[xinitrc](dot-config/x11/xinitrc)
 ## window manager
-[i3](.config/i3/config)
+[i3](dot-config/i3dot-config)
 ## hotkey daemon
-[sxhkdrc](.config/sxhkd/sxhkdrc)
+[sxhkdrc](dot-config/sxhkd/sxhkdrc)
 ## text editor
-[vimrc](.config/vim/vimrc)
+[vimrc](dot-config/vim/vimrc)
 ## xdg
 ### user dirs
-[user-dirs.dirs](.config/user-dirs.dirs)
+[user-dirs.dirs](dot-config/user-dirs.dirs)
 ## misc programs
 ### redshift
-[redshift.conf](.config/redshift/redshift.conf)
+[redshift.conf](dot-config/redshift/redshift.conf)
 ### yazi
-[yazi.toml](.config/yazi/yazi.toml)
+[yazi.toml](dot-config/yazi/yazi.toml)
 ### fastfetch
-[config.jsonc](.config/fastfetch/config.jsonc)
+dot-config.jsonc](dot-config/fastfetchdot-config.jsonc)
