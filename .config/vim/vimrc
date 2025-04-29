@@ -1,0 +1,4 @@
+:set nu rnu
+:set showcmd
+:set viminfofile=$XDG_STATE_HOME/vim/viminfo
+:autocmd BufWritePost */dwm/config.h !sudo make -C %:h clean install
