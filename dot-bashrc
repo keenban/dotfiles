@@ -4,19 +4,17 @@
 #   / /_/ / /_/ (__  ) / / / /  / /__  
 #  /_.___/\__,_/____/_/ /_/_/   \___/  
 #                                      
-# [[ $- != *i* ]] && return # If not running interactively, don"t do anything
-
 #=====| customization |=====#
 stty -ixon # Disable ctrl-s and ctrl-q
 shopt -s autocd # Allows cd with only dir name
 export PS1="[\u@\H:\w]\$ " # Custom prompt
 
-#=====| auto sudo |=====#
+#=====| alias |=====#
+#-----| autosudo |-----#
 for command in mount umount pacman ; do
 	alias $command="sudo $command"
 done; unset command
 
-#=====| alias |=====#
 #-----| default |-----#
 alias ls="ls -ph --group-directories-first --color=auto"
 alias grep="grep --color=auto"
