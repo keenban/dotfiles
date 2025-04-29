@@ -13,6 +13,8 @@
 [i3](.config/i3/config)
 ## hotkey daemon
 [sxhkdrc](.config/sxhkd/sxhkdrc)
+## text editor
+[vimrc](.config/vim/vimrc)
 ## xdg
 ### user dirs
 [user-dirs.dirs](.config/user-dirs.dirs)
