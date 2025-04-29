@@ -1,5 +1,10 @@
-# Launch emoji picker
 super + F1
 	dmenunicode
 super + grave
 	$BROWSER
+super + F2
+	passmenu -p
+super + F3
+	passmenu -o
+super + F4
+	passmenu -u
