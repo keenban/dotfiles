@@ -4,7 +4,7 @@
 ### bash
 [bashrc](dot-bashrc)
 ### fish
-dot-config.fish](dot-config/fishdot-config.fish)
+[dot-config.fish](dot-config/fishdot-config.fish)
 ## terminal emulator
 [alacritty.toml](dot-config/alacritty/alacritty.toml)
 ## display server
